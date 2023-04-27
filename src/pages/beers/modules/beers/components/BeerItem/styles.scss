@@ -1,0 +1,28 @@
+.beers_item {
+  .ant-list-item-meta-description {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4; /* number of lines to show */
+    line-clamp: 4;
+    -webkit-box-orient: vertical;
+  }
+
+  .ant-list-item-meta-avatar {
+    width: 100px;
+  }
+
+  .ant-list-item-meta-content {
+    padding: 0px 10px;
+  }
+
+  .beers {
+    &_img {
+      height: 200px;
+    }
+
+    &_item {
+      align-items: center;
+    }
+  }
+}
